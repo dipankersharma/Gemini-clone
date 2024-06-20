@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const Sidebar = () => {
-  const [extend, setextend] = useState(false);
+  const [extend, setextend] = useState(true);
 
   return (
-    <div className="sidebar h-[100vh] inline-flex flex-col justify-between bg-[#f0f4f9] py-[25px] px-[15px]">
+    <div className="sidebar min-h-[100vh] inline-flex flex-col justify-between bg-[#f0f4f9] py-[25px] px-[15px]">
       {/* Top  */}
       <div className="top">
         <i
