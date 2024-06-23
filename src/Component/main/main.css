@@ -3,3 +3,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.loader {
+  animation: loader 3s infinite linear;
+}
+
+@keyframes loader {
+  0% {
+    background-position: -800px 0px;
+  }
+  100% {
+    background-position: 800px 0px;
+  }
+}
